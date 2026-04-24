@@ -16,7 +16,7 @@ Writes `~/.claude/handoffs/PROJECT-TOPIC-YYYY-MM-DD-HHMM.md` containing:
 
 ### List mode
 
-Triggered by: "list handoffs", "show handoffs", "open a handoff"
+Triggered by: "list handoffs", "ls handoffs", "show handoffs", "open a handoff"
 
 Lists saved handoffs newest-first, prompts you to pick one, shows its resume prompt.
 
@@ -35,4 +35,5 @@ Just talk naturally — Claude will invoke the skill when it detects handoff int
 ```
 /session-handoff
 /session-handoff list
+/session-handoff ls
 ```
