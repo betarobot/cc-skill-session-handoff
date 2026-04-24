@@ -23,7 +23,7 @@ Lists saved handoffs newest-first, prompts you to pick one, shows its resume pro
 ## Installation
 
 ```bash
-git clone https://github.com/andrey-p/cc-skill-session-handoff ~/.claude/skills/session-handoff
+git clone https://github.com/betarobot/cc-skill-session-handoff ~/.claude/skills/session-handoff
 ```
 
 Claude Code discovers skills automatically from `~/.claude/skills/`.
