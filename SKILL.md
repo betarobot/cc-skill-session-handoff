@@ -47,6 +47,8 @@ they directly affect the main topic. The handoff should reflect what the session
 
 **Project slug:** Run `basename $(pwd)` and lowercase the result (e.g. `localhostly`).
 
+**Project path:** Run `pwd` to get the full absolute path.
+
 **Topic slug:** Infer a 2-4 word topic from the conversation (e.g. `checkout-flow-bug`,
 `ga4-tracking`, `payment-gateway-refactor`). Use lowercase-hyphenated form.
 
@@ -60,6 +62,7 @@ genuinely empty (e.g. no blockers):
 session: YYYY-MM-DD HH:MM
 topic: Human-readable topic title
 project: project-slug
+path: /full/local/path/to/project
 ---
 
 > **Resume prompt** — paste this into a new session to continue without re-explaining:
