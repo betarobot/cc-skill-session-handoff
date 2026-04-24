@@ -38,6 +38,11 @@ Prioritize **hard-to-rediscover facts**: file paths, config values, the reason a
 was rejected, exact error messages, the specific function that was the root cause. Skip
 general knowledge about frameworks, languages, or libraries.
 
+**Stay on the main thread.** Sessions often drift into quick tangential changes — a server
+tweak, an env var fix, a config adjustment unrelated to the core work. Omit these unless
+they directly affect the main topic. The handoff should reflect what the session was
+*about*, not everything that happened in it.
+
 ### Step 1: Derive slugs
 
 **Project slug:** Run `basename $(pwd)` and lowercase the result (e.g. `localhostly`).
