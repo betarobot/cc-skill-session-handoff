@@ -7,14 +7,14 @@ description: >
   session", "context dump", "I need to stop", or anything implying they want to preserve
   the current session state for later continuation. Also trigger proactively when a long
   session wraps up a major feature or decision, or when the user says "we're done for today".
-  Also use when the user says "list handoffs", "show handoffs", or "open a handoff".
+  Also use when the user says "list handoffs", "ls handoffs", "show handoffs", or "open a handoff".
 ---
 
 # Session Handoff
 
 ## Detect Mode
 
-**If the user invoked this skill with `list` (e.g. "list handoffs", "show handoffs", "open a handoff"):**
+**If the user invoked this skill with `list` or `ls` (e.g. "list handoffs", "ls handoffs", "show handoffs", "open a handoff"):**
 → Jump to **List Mode** below. Skip all other steps.
 
 **Otherwise:** proceed with Write Mode (Steps 1–4).
